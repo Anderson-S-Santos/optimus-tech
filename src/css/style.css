@@ -3,8 +3,13 @@
     --cinza-escuro: #101828;
     --cinza-claro: #667085;
     --branco: #FFFFFF;
+    --vermelho-claro: #F9F4F4;
+    --cinza-claro-borda: #EAECF0;
 }
 
+.logo {
+    margin-left: 127px;
+}
 
 .flex-container {
     display: flex;
@@ -76,7 +81,7 @@ button {
     gap: 64px;
 }
 
-.child {
+.caixa-metricas {
     width: 280px;
     height: 168px;
 }
@@ -101,16 +106,95 @@ button {
     color: var(--cinza-claro);
 }
 
+.chamada-talentos {
+    text-align: center;
+    line-height: 50px;
+}
+
+.titulo-talentos {
+    color: var(--vermelho-escuro);
+    font-weight: bold;
+    font-size: 14px;
+    background-color: var(--vermelho-claro);
+    padding: 4px 12px;
+    border-radius: 16px;
+}
+
+.titulo-principal-talentos {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.texto-vagas-talentos {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    line-height: 50px;
+}
+
 .caixa-imagem {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 }
 
 .imagem-pessoas {
-    /* position: absolute; */
     width: 1216px;
     height: 400px;
+    margin-top: 64px;
     left: 112px;
     top: 298px;
     text-align: center;
+}
+
+.vagas-abertas {
+    height: 940px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.container-vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.titulo-vagas {
+    color: var(--cinza-escuro);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.conteudo-vagas {
+    margin-top: 64px;
+}
+
+.item-conteudo-vagas {
+    width: 768px;
+    height: 136px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 24px 24px 28px;
+    gap: 24px;
+    border: 1px solid var(--cinza-claro-borda);
+    border-radius: 16px;
+}
+
+
+.titulo-item-conteudo-vagas {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: bold;
+    /* margin: 0 0 20px; */
+}
+
+.texto-item-conteudo-vagas {
+    color: var(--cinza-claro);
+    font-size: 16px;
 }
