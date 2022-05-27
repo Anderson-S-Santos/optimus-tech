@@ -5,6 +5,9 @@
     --branco: #FFFFFF;
     --vermelho-claro: #F9F4F4;
     --cinza-claro-borda: #EAECF0;
+    --cinza-medio: #F9FAFB;
+    --border-email: #D0D5DD;
+    --cinza-direitos-autorais: #98A2B3;
 }
 
 .logo {
@@ -160,6 +163,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin-top: 32px;
+    height: 1798px;
 }
 
 .titulo-vagas {
@@ -170,6 +174,7 @@ button {
 
 .conteudo-vagas {
     margin-top: 64px;
+
 }
 
 .item-conteudo-vagas {
@@ -197,4 +202,120 @@ button {
 .texto-item-conteudo-vagas {
     color: var(--cinza-claro);
     font-size: 16px;
+}
+
+.container-depoimentos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.depoimentos {
+    margin-top: 96px;
+}
+.conteudo-depoimentos {
+    width: 1216px;
+    height: 404px;
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--vermelho-claro);
+}
+
+.titulo-depoimentos {
+    color: var(--vermelho-escuro);
+    font-size: 14px;
+    font-weight: bold;
+    padding: 16px 0;
+}
+
+.texto-depoimentos {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 32px;
+}
+
+.atribuicao-funcionario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-nome-funcionario {
+    color: var(--cinza-escuro);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 0 5px;
+}
+
+.cargo-depoimentos {
+    color: var(--cinza-claro);
+    font-size: 14px;
+}
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cinza-medio);
+    height: 430px;
+    margin-top: 96px;
+}
+
+.conteudo-formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo-formulario {
+    color: var(--cinza-escuro);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.texto-formulario {
+    color: var(--cinza-claro);
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.formulario-email {
+    margin: 40px 16px;
+    border: 1px solid var(--cinza-claro-borda);
+    border-radius: 8px;
+    padding: 12px, 14px, 12px, 16px;
+    height: 48px;
+    width: 360px;
+    box-shadow: #1018280D;
+}
+
+.email-formulario {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+:placeholder-shown {
+    color: var(--cinza-claro);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 0 16px;
+}
+
+.direitos-autorais {
+    color: var(--cinza-direitos-autorais);
+    font-size: 16px;
+    font-weight: 400;
 }
